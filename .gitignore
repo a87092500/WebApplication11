@@ -7,3 +7,5 @@ obj/
 
 # 忽略 VS/VSCode 产生的文件夹
 .vs/
+*.cs  text=auto eol=lf
+*.sh  text eol=lf
