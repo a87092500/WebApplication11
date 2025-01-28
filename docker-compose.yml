@@ -7,7 +7,7 @@ services:
     container_name: my-web-service
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__DefaultConnection=Server=web_sql_smr1_user;Port=5432;Database=web_sql_smr1;User Id=web_sql_smr1_user;Password=6NFOQ5aK39jKpZCXUz6azqoqIKPXB9vR
+      - ConnectionStrings__DefaultConnection=Server=postgres;Port=5432;Database=your_database;User Id=postgres;Password=your_password
       - ASPNETCORE_URLS=http://0.0.0.0:80
     ports:
       - "5000:80"
