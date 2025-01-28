@@ -1,0 +1,9 @@
+# 忽略 MySQL 数据目录
+mysql-data/
+
+# 忽略编译生成文件夹
+bin/
+obj/
+
+# 忽略 VS/VSCode 产生的文件夹
+.vs/
